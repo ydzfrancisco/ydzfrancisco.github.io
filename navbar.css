@@ -4,11 +4,13 @@
     overflow: hidden;
     background-color: #201f2e;
     font-family: 'Inter', sans-serif;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #00000033;
 }
   
 .topnav a {
     float: left;
-    color: #f7ffca;
+    color: #f7ffcc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -16,11 +18,11 @@
 }
   
 .topnav a:hover {
-    background-color: #f7ffca;
+    background-color: #688199;
     color: #201f2e;
 }
   
 .topnav a.active {
     background-color: #ffc2c2;
-    color: #454355;
+    color: #201f2e;
 }
