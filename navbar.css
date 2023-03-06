@@ -4,8 +4,8 @@
     overflow: hidden;
     background-color: #201f2e;
     font-family: 'Inter', sans-serif;
-    border-radius: 10%;
-    box-shadow: 0 0 5px #00000033;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000033;
 }
   
 .topnav a {
