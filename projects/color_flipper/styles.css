@@ -1,11 +1,11 @@
 .container {
-    background-color: rgb(156, 60, 85);
+    background-color: rgb(51, 50, 65);
 }
 
-.container .h2 {
-    color: lightpink;
+.container .title {
+    color: rgb(227, 150, 162);
 }
 
 .container .color {
-    color: blue; /* Replace 'blue' with your desired color */
+    color: rgb(255, 0, 170); /* Replace 'blue' with your desired color */
 }
