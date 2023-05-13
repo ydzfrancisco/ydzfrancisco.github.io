@@ -1,0 +1,12 @@
+.container .h2 {
+    background-color: rgb(156, 60, 85);
+    color: lightpink;
+}
+
+h2 {
+    color: lightpink;
+}
+
+.container .color {
+    color: blue; /* Replace 'blue' with your desired color */
+}
