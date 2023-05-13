@@ -6,9 +6,10 @@ btn.addEventListener('click', function(){
     let hexColor="#";
     for(let i=0; i<6; i++){
         hexColor += hex[hexRand()]
-    }
+    };
     color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
+    document.color.style.color = hexColor;
 });
 
 function hexRand(){
