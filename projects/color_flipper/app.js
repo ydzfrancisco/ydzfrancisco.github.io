@@ -3,7 +3,11 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener('click', function(){
-    let randomNumber = 0
+    const randomNumber = 0
     document.body.style.backgroundColor = colors[randomNumber]
     color.textContent = colors[randomNumber]
 });
+
+function getRandNum(){
+    return Math.random()
+}
