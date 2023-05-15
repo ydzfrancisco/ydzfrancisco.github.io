@@ -60,6 +60,7 @@ body {
     font-weight: 800;
     font-size: 100px;
     transition: all 0.5s ease-in-out;
+    pointer-events: none;
 }
 
 .hover-box:hover h1{
