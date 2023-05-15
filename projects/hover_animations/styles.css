@@ -23,8 +23,28 @@ body {
     width: 250px;
     height: 250px;
     background-color: rgba(195, 195, 195, 0.123);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,0));
     margin: 50px;
     border: 3px solid #b7b5c8ae;
+    padding: 25px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-out 
+}
+
+.hover-box:hover {
+    /* box-sizing: border-box;
+      width: 260px;
+    height: 260px; 
+    background-color: rgba(195, 195, 195, 0.123);*/
+    transform: scale(1.1);
+    background-position: 50% 100%;
+    background-image: linear-gradient(180deg, rgba(255,240,226,1) 0%, rgba(255,212,247,1) 50%, rgba(174,236,255,1) 100%);
+    overflow:hidden;
+    margin: 50px;
+    border: 3px solid #7d7c87;
     padding: 25px;
     border-radius: 5%;
     display: flex;
@@ -39,6 +59,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 100px;
+    transition: all 0.5s ease-in-out;
 }
 
+.hover-box:hover h1{
+    color: #ff00ff;
+}
 
