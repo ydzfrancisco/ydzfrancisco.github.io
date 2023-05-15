@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(30, 30, 36);
+    background-color: rgb(40, 40, 47);
     overflow: hidden;
 }
 
@@ -22,9 +22,9 @@ body {
     box-sizing: border-box;
     width: 250px;
     height: 250px;
-    background-color: rgba(194, 188, 188, 0.123);
+    background-color: rgba(195, 195, 195, 0.123);
     margin: 50px;
-    border: 3px solid #b5c8cfae;
+    border: 3px solid #b7b5c8ae;
     padding: 25px;
     border-radius: 5%;
     display: flex;
@@ -35,8 +35,10 @@ body {
 .hover-box h1 {
     text-align: center;
     line-height: 1;
-    color: #b5c8cfae;
+    color: #b7b5c8ae;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
 }
-
 
 
